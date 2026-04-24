@@ -3,6 +3,18 @@
 `tardiff` compares two tar archives, including compressed tar files, and shows
 how their entries differ.
 
+## Installation
+
+```bash
+cargo install tardiff
+```
+
+From a local checkout:
+
+```bash
+cargo install --path .
+```
+
 ## Usage
 
 ```bash
@@ -70,4 +82,3 @@ cargo run -- examples/left.tar examples/right.tar
 cargo run -- --table examples/left.tar examples/right.tar
 cargo run -- --table --spacious examples/left.tar examples/right.tar
 ```
-
