@@ -1,4 +1,4 @@
-# tardiff
+# tardiff [![Crates.io](https://img.shields.io/crates/v/tardiff.svg)](https://crates.io/crates/tardiff)
 
 `tardiff` compares two tar archives, including compressed tar files, and shows
 how their entries differ.
